@@ -1,0 +1,16 @@
+opcion = ""
+
+while opcion != "3":
+    print("1. Saludar")
+    print("2. Mostrar un mensaje")
+    print("3. Salir")
+    opcion = input("Elige una opcion: ")
+
+    if opcion == "1":
+        print("Hola")
+    elif opcion == "2":
+        print("Estoy aprendiendo Python")
+    elif opcion == "3":
+        print("Adios")
+    else:
+        print("Opcion incorrecta")

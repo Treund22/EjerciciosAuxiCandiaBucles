@@ -1,0 +1,10 @@
+suma = 0
+numero = 0
+
+while numero >= 0:
+    numero = int(input("Escribe un numero (negativo para terminar): "))
+
+    if numero >= 0:
+        suma = suma + numero
+
+print(suma)

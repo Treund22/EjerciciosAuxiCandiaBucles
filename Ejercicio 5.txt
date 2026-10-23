@@ -1,0 +1,8 @@
+frase = input("Escribe una frase: ")
+vocales = 0
+
+for letra in frase.lower():
+    if letra in "aeiou":
+        vocales = vocales + 1
+
+print(vocales)

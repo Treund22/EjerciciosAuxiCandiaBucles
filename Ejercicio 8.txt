@@ -1,0 +1,12 @@
+secreto = 7
+intento = 0
+
+while intento != secreto:
+    intento = int(input("Adivina el numero del 1 al 10: "))
+
+    if intento < secreto:
+        print("El numero secreto es mayor")
+    elif intento > secreto:
+        print("El numero secreto es menor")
+    else:
+        print("Acertaste")
